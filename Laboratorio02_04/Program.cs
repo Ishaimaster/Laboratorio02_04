@@ -152,7 +152,8 @@ while (!y)
 
         //la cantidad se divide por 100, y se pasa a entero.
         b1 = (int)n / 100;
-        n = n % 100; // luego la cantidad "n" se iguala al residuo de la division de "n" y 100, por ejemplo: 198.75/100 = 1   y el residuo seria = 198.75-100 = 98.75
+        n = n % 100; 
+        // luego la cantidad "n" se iguala al residuo de la division de "n" y 100, por ejemplo: 198.75/100 = 1   y el residuo seria = 198.75-100 = 98.75
         b2 = (int)n / 50;
         n = n % 50;// entonces siguiendo el ejemplo, se realiza la division del restante de la cantidad, (98.75) entre 50, y luego se calcula el residuo de esta division para asignarlo al valor "n"
 
@@ -175,22 +176,71 @@ while (!y)
         n = n % 0.01;
 
 
+        if(b1 > 0) 
+        { 
+            Console.WriteLine(b1 + " de Q100");
+        }
+        else
+        {
 
-        Console.WriteLine(b1 + " de Q100");
+        }
+        if (b2 > 0)
+        {
+            Console.WriteLine(b2 + " de Q50");
+        }
+        else
+        {
 
-        Console.WriteLine(b2 + " de Q50");
+        }
+        if (b3 > 0)
+        {
+            Console.WriteLine(b3 + " de Q20");
+        }
+        else
+        {
+                
+        }
+        if (b4 > 0)
+        {
+            Console.WriteLine(b4 + " de Q10");
+        }
+        else
+        {
 
-        Console.WriteLine(b3 + " de Q20");
+        }
+        if (b5 > 0)
+        {
+            Console.WriteLine(b5 + " de Q5");
+        }
+        else
+        {
 
-        Console.WriteLine(b4 + " de Q10");
+        }
+        if (b6 > 0)
+        {
+            Console.WriteLine(b6 + " de Q1");
+        }
+        else
+        {
 
-        Console.WriteLine(b5 + " de Q5");
+        }
+        if (b7 > 0)
+        {
+            Console.WriteLine(b7 + " de Q0.25");
+        }
+        else
+        {
 
-        Console.WriteLine(b6 + " de Q1");
+        }
+        if (b8 > 0)
+        {
+            Console.WriteLine(b8 + " de Q0.01");
+        }
+        else
+        {
 
-        Console.WriteLine(b7 + " de Q0.25");
-
-        Console.WriteLine(b8 + " de Q0.01");
+        }
+        
 
         y = true;
     }
