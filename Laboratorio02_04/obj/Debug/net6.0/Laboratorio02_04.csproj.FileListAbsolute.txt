@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\bin\Debug\net6.0\Laboratorio02_04.exe
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\bin\Debug\net6.0\Laboratorio02_04.deps.json
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\bin\Debug\net6.0\Laboratorio02_04.runtimeconfig.json
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\bin\Debug\net6.0\Laboratorio02_04.dll
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\bin\Debug\net6.0\Laboratorio02_04.pdb
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.AssemblyInfo.cs
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.dll
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\refint\Laboratorio02_04.dll
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.pdb
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\Laboratorio02_04.genruntimeconfig.cache
+C:\Users\HP\source\repos\Laboratorio02_04\Laboratorio02_04\obj\Debug\net6.0\ref\Laboratorio02_04.dll
