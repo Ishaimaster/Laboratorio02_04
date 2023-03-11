@@ -139,116 +139,139 @@ Console.WriteLine("T4_H.F._1199923_E2");
 
 while (!y)
 {
-
-    Console.WriteLine("Ingrese una cantidad de quetzales");
-    n = Convert.ToDouble(Console.ReadLine());
-
-
-
-    if (n >= 0)
+    try
     {
 
 
-
-        //la cantidad se divide por 100, y se pasa a entero.
-        b1 = (int)n / 100;
-        n = n % 100; 
-        // luego la cantidad "n" se iguala al residuo de la division de "n" y 100, por ejemplo: 198.75/100 = 1   y el residuo seria = 198.75-100 = 98.75
-        b2 = (int)n / 50;
-        n = n % 50;// entonces siguiendo el ejemplo, se realiza la division del restante de la cantidad, (98.75) entre 50, y luego se calcula el residuo de esta division para asignarlo al valor "n"
-
-        b3 = (int)n / 20;
-        n = n % 20;
-        // Asi sucesivamente hasta terminar
-        b4 = (int)n / 10;
-        n = n % 10;
-
-        b5 = (int)n / 5;
-        n = n % 5;
-
-        b6 = (int)n / 1;
-        n = n % 1;
-
-        b7 = n / 0.25;
-        n = n % 0.25;
-
-        b8 = n / 0.01;
-        n = n % 0.01;
+        Console.WriteLine("Ingrese una cantidad de quetzales");
+        n = Convert.ToDouble(Console.ReadLine());
 
 
-        if(b1 > 0) 
-        { 
-            Console.WriteLine(b1 + " de Q100");
-        }
-        else
+
+        if (n >= 0)
         {
 
-        }
-        if (b2 > 0)
-        {
-            Console.WriteLine(b2 + " de Q50");
-        }
-        else
-        {
 
-        }
-        if (b3 > 0)
-        {
-            Console.WriteLine(b3 + " de Q20");
-        }
-        else
-        {
-                
-        }
-        if (b4 > 0)
-        {
-            Console.WriteLine(b4 + " de Q10");
-        }
-        else
-        {
 
-        }
-        if (b5 > 0)
-        {
-            Console.WriteLine(b5 + " de Q5");
-        }
-        else
-        {
+            //la cantidad se divide por 100, y se pasa a entero.
+            b1 = (int)n / 100;
+            n = n % 100;
+            // luego la cantidad "n" se iguala al residuo de la division de "n" y 100, por ejemplo: 198.75/100 = 1   y el residuo seria = 198.75-100 = 98.75
+            b2 = (int)n / 50;
+            n = n % 50;// entonces siguiendo el ejemplo, se realiza la division del restante de la cantidad, (98.75) entre 50, y luego se calcula el residuo de esta division para asignarlo al valor "n"
 
-        }
-        if (b6 > 0)
-        {
-            Console.WriteLine(b6 + " de Q1");
-        }
-        else
-        {
+            b3 = (int)n / 20;
+            n = n % 20;
+            // Asi sucesivamente hasta terminar
+            b4 = (int)n / 10;
+            n = n % 10;
 
-        }
-        if (b7 > 0)
-        {
-            Console.WriteLine(b7 + " de Q0.25");
-        }
-        else
-        {
+            b5 = (int)n / 5;
+            n = n % 5;
 
-        }
-        if (b8 > 0)
-        {
-            Console.WriteLine(b8 + " de Q0.01");
-        }
-        else
-        {
 
-        }
-        
+            b6 = (int)n / 1;
+            n = n % 1;
 
-        y = true;
-    }
-    else if (n < 0)
-    {
+            n = n*100;
+            
+            b7 = (int)n / 25;
+            n = n % 25;
+           
+            b8 = (int)n / 1;
+           
+            if (b8 > 0 && b8 <= 1)
+            {
+                b8++;
+            }else if(b8 > 3 && b8 < 4)
+            {
+                b8++;
+
+            }else if(b8 > 4 && b8 <5)
+            {
+                b8++;
+            }
+            else if(b8 > 18)
+            {
+                b8++; 
+            }
+
+            
+            //Condicional si se muestran en pantalla
+            if (b1 > 0)
+            {
+                Console.WriteLine(b1 + " de Q100");
+            }
+            else
+            {
+
+            }
+            if (b2 > 0)
+            {
+                Console.WriteLine(b2 + " de Q50");
+            }
+            else
+            {
+
+            }
+            if (b3 > 0)
+            {
+                Console.WriteLine(b3 + " de Q20");
+            }
+            else
+            {
+
+            }
+            if (b4 > 0)
+            {
+                Console.WriteLine(b4 + " de Q10");
+            }
+            else
+            {
+
+            }
+            if (b5 > 0)
+            {
+                Console.WriteLine(b5 + " de Q5");
+            }
+            else
+            {
+
+            }
+            if (b6 > 0)
+            {
+                Console.WriteLine(b6 + " de Q1");
+            }
+            else
+            {
+
+            }
+            if (b7 > 0)
+            {
+                Console.WriteLine(b7 + " de Q0.25");
+            }
+            else
+            {
+
+            }
+            if (b8 > 0)
+            {
+                Console.WriteLine(b8 + " de Q0.01");
+            }
+            else
+            {
+
+            }
+
+
+            y = true;
+        }
+    }catch(Exception e)        
+     {
         Console.WriteLine("Debe ingresar una cantidad mayor o igual que 0");
         y = false;
     }
-
+    Console.ReadKey();
+    Console.Clear();
 
 }
